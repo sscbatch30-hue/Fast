@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">TendaF3SpeedMeter</string>
+    <string name="app_subtitle">Live Network &amp; Router Overlay</string>
+    <string name="status_active">ACTIVE</string>
+    <string name="status_stopped">STOPPED</string>
+    <string name="status_paused_screen_off">PAUSED (SCREEN OFF)</string>
+
+    <string name="action_start_overlay">Start Live Overlay</string>
+    <string name="action_stop_overlay">Stop Overlay</string>
+    <string name="action_grant">Grant</string>
+    <string name="action_granted">Granted</string>
+    <string name="action_reset_position">Reset Position</string>
+    <string name="action_test_router">Test Gateway</string>
+    <string name="action_detect_gateway">Auto-detect</string>
+    <string name="action_guide">Guide</string>
+    <string name="action_close">Close</string>
+
+    <string name="label_download">Download</string>
+    <string name="label_upload">Upload</string>
+    <string name="label_peak_dl">Peak DL</string>
+    <string name="label_peak_ul">Peak UL</string>
+    <string name="label_session_total">Session</string>
+    <string name="label_gateway">Gateway</string>
+    <string name="label_ping">Ping</string>
+
+    <string name="section_permissions">Required Permissions</string>
+    <string name="perm_overlay_title">Display Over Other Apps</string>
+    <string name="perm_overlay_desc">Required to float the speed pill above other apps without blocking touches.</string>
+    <string name="perm_notifications_title">Service Notifications</string>
+    <string name="perm_notifications_desc">Keeps the foreground speed meter reliable and adds a quick Stop button.</string>
+
+    <string name="section_overlay_config">Overlay Appearance &amp; Sampling</string>
+    <string name="label_speed_unit">Speed Unit</string>
+    <string name="unit_auto_bytes">KB/s · MB/s</string>
+    <string name="unit_bits">Kbps · Mbps</string>
+    <string name="label_refresh_rate">Refresh Interval</string>
+    <string name="label_overlay_size">Pill Size</string>
+    <string name="label_overlay_layout">Pill Layout</string>
+    <string name="layout_stacked">Stacked (2 Lines)</string>
+    <string name="layout_inline">Inline (1 Line)</string>
+    <string name="label_opacity">Background Opacity</string>
+    <string name="label_show_ping">Show Gateway Ping in Overlay</string>
+    <string name="label_live_preview">Floating Overlay Preview</string>
+    <string name="hint_drag_overlay">Drag overlay anywhere on screen · Tap to open app</string>
+
+    <string name="section_tenda_router">Tenda F3 Gateway Monitor</string>
+    <string name="label_probe_router">Probe Tenda F3 Gateway</string>
+    <string name="desc_probe_router">Measures router latency and checks Tenda F3 LAN status over Wi-Fi.</string>
+    <string name="label_router_ip">Router Gateway IP</string>
+    <string name="label_router_password">Router Admin Password (Optional)</string>
+
+    <string name="notif_channel_name">Live Speed Overlay</string>
+    <string name="notif_channel_desc">Displays live download and upload speed while the floating meter is active.</string>
+    <string name="notif_title">TendaF3SpeedMeter Running</string>
+    <string name="notif_action_stop">Stop</string>
+
+    <string name="error_overlay_permission_required">Please grant "Display over other apps" permission first.</string>
+    <string name="error_overlay_revoked">Overlay permission was revoked. Service stopped safely.</string>
+</resources>
